@@ -13,10 +13,6 @@ class CreateCurrenciesTable extends Migration
      */
     public function up()
     {
-        if (Schema::hasTable('currencies')) {
-            return;
-        }
-
         Schema::create('currencies', function (Blueprint $table) {
             $table->id();
             $table->string('name', 50)->unique();
