@@ -4,7 +4,6 @@ use Illuminate\Database\Seeder;
 
 class CurrencySeeder extends Seeder
 {
-
     /**
      * Run the database seeds.
      *

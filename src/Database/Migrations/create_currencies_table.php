@@ -18,7 +18,6 @@ class CreateCurrenciesTable extends Migration
             $table->string('name', 50)->unique();
             $table->string('code', 50)->unique();
             $table->string('symbol', 5)->nullable();
-
             $table->timestamps();
         });
     }

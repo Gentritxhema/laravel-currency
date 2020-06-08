@@ -1,0 +1,32 @@
+{
+    "name": "gentritxhema/laravel-currency",
+    "description": "Laravel currency table migration and seed",
+    "homepage": "https://github.com/Gentritxhema/laravel-currency",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gentrit Xhema",
+            "email": "gentrit.xhema@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GentritXhema\\Currencies\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.6.34|~5.7.0|~5.8.0|^6.0|^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GentritXhema\\Currencies\\Providers\\CurrenciesProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
