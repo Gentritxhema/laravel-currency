@@ -1,4 +1,4 @@
-# laravel Currency
+# Laravel Currency
 Laravel currency offers you migration and seed for currencies, with code, name and symbol.
 
 # Installation
