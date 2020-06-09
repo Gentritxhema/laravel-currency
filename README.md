@@ -1,5 +1,5 @@
-# Laravel Currency
-Laravel currency offers you migration and seed for currencies, with code, name and symbol.
+# Laravel Currency :currency_exchange:
+Laravel currency offers you migration and seed for 103 currencies with code, name and symbol.
 
 ### Screenshot
 ![Screenshot](https://i.imgur.com/oXRdYAT.gif)
