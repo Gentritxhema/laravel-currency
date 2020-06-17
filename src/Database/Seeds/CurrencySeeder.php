@@ -25,6 +25,7 @@ class CurrencySeeder extends Seeder
             ['code' =>'AWG' , 'name' => 'Aruban Guilder', 'symbol' => 'ƒ' ],
             ['code' =>'AZN' , 'name' => 'Azerbaijanian Manat', 'symbol' => 'ман' ],
             ['code' =>'BAM' , 'name' => 'Convertible Marks', 'symbol' => 'KM' ],
+            ['code' => 'BDT', 'name' => 'Bangladeshi Taka', 'symbol' => '৳'],
             ['code' =>'BBD' , 'name' => 'Barbados Dollar', 'symbol' => '$' ],
             ['code' =>'BGN' , 'name' => 'Bulgarian Lev', 'symbol' => 'лв' ],
             ['code' =>'BMD' , 'name' => 'Bermudian Dollar', 'symbol' => '$' ],
