@@ -33,7 +33,7 @@ class CurrencySeeder extends Seeder
             ['code' =>'BRL' , 'name' => 'Brazilian Real', 'symbol' => 'R$' ],
             ['code' =>'BSD' , 'name' => 'Bahamian Dollar', 'symbol' => '$' ],
             ['code' =>'BWP' , 'name' => 'Pula', 'symbol' => 'P' ],
-            ['code' =>'BYR' , 'name' => 'Belarussian Ruble', 'symbol' => 'p.' ],
+            ['code' =>'BYR' , 'name' => 'Belarussian Ruble', 'symbol' => '₽' ],
             ['code' =>'BZD' , 'name' => 'Belize Dollar', 'symbol' => 'BZ$' ],
             ['code' =>'CAD' , 'name' => 'Canadian Dollar', 'symbol' => '$' ],
             ['code' =>'CHF' , 'name' => 'Swiss Franc', 'symbol' => 'CHF' ],
