@@ -1,5 +1,5 @@
 <?php
-namespace GentritXhema\Currencies\Seeds;
+namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
