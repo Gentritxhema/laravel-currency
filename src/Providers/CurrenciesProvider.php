@@ -28,5 +28,9 @@ class CurrenciesProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../Database/Migrations/' => database_path('migrations')
         ], 'migrations');
+        
+        $this->publishes([
+            __DIR__.'/../Database/Seeds/' => database_path('seeder'),
+        ]);
     }
 }
