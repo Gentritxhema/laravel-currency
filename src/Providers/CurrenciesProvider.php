@@ -30,7 +30,7 @@ class CurrenciesProvider extends ServiceProvider
         ], 'migrations');
         
         $this->publishes([
-            __DIR__.'/../Database/Seeds/' => database_path('seeder'),
+            __DIR__.'/../Database/Seeds/' => database_path('seeders'),
         ]);
     }
 }
